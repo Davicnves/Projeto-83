@@ -95,7 +95,7 @@ export default class CreateStory extends Component {
                         />
                        </View>
 
-                       <TectInput
+                       <TextInput
                        style={styles.inputFont}
                        onChangeText={caption => this.setState({caption})}
                        placeholder={"Legenda"}
